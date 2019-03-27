@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+/*
+Viết chương trình nhập vào giá trị cho a và b.
+Tính tổng a và b, nếu tổng nhỏ hơn 4, hiển thị chuỗi Below, ngược lại hiển thị Over.
+Lưu ý sử dụng toán tử ? :
+*/
+    let a = parseInt(prompt('Nhập giá trị của a'));
+    let b = parseInt(prompt('Nhập giá trị của b'));
+    let c = a + b;
+    switch ((c < 4)? 1 : 2 ) {
+        case 1:
+            alert('Below');
+            break;
+        case 2:
+            alert('Over');
+            break;
+    }
+</script>
+
+</body>
+</html>
